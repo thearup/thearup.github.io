@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arup Sarkar — Self-Made Creator, Video Editor &amp; Competitive eFootball Player</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: #07090e;
+      color: #f1f5f9;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, .font-display {
+      font-family: 'Space Grotesk', 'Inter', sans-serif;
+    }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #34d399 0%, #38bdf8 48%, #f472b6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .emerald-glow {
+      box-shadow: 0 0 36px -10px rgba(16, 185, 129, 0.35);
+    }
+    .magenta-glow {
+      box-shadow: 0 0 36px -10px rgba(236, 72, 153, 0.35);
+    }
+    .red-glow {
+      box-shadow: 0 0 36px -10px rgba(239, 68, 68, 0.35);
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-emerald-500/30 selection:text-emerald-200">
+
+  <!-- Sticky Navigation -->
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-[#07090e]/85 backdrop-blur-lg">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6">
+      <a href="#top" class="flex items-center gap-2.5 group">
+        <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-400 to-pink-500 text-xs font-extrabold text-slate-950 shadow-lg">
+          AS
+        </span>
+        <span class="font-display text-base font-bold tracking-tight text-white sm:text-lg">
+          Arup Sarkar
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden items-center gap-6 text-sm font-medium text-slate-300 md:flex">
+        <a href="#about" class="transition hover:text-emerald-400">About</a>
+        <a href="#editing" class="transition hover:text-pink-400">Editing &amp; Reels</a>
+        <a href="#youtube" class="transition hover:text-red-400">YouTube</a>
+        <a href="#efootball" class="transition hover:text-emerald-400">Gaming &amp; Live</a>
+        <a href="#showcase" class="transition hover:text-white">Showcase</a>
+        <a href="#contact" class="transition hover:text-white">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-2.5">
+        <a href="#contact" class="hidden rounded-lg bg-gradient-to-r from-emerald-500 to-teal-500 px-4 py-2 text-xs font-semibold text-slate-950 transition hover:brightness-110 sm:inline-flex items-center gap-1.5">
+          <i data-lucide="send" class="h-3.5 w-3.5"></i>
+          Connect
+        </a>
+        <button id="mobile-menu-btn" type="button" aria-label="Toggle Menu" class="inline-flex items-center justify-center rounded-lg border border-white/10 bg-white/5 p-2 text-slate-200 transition hover:bg-white/10 md:hidden">
+          <i data-lucide="menu" class="h-5 w-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Nav -->
+    <div id="mobile-menu" class="hidden border-t border-white/10 bg-[#0b0f19] px-4 py-3 md:hidden">
+      <div class="flex flex-col gap-2 text-sm font-medium text-slate-200">
+        <a href="#about" class="mobile-nav-link rounded-lg px-3 py-2 hover:bg-white/5">About</a>
+        <a href="#editing" class="mobile-nav-link rounded-lg px-3 py-2 hover:bg-white/5">Video Editing &amp; Reels</a>
+        <a href="#youtube" class="mobile-nav-link rounded-lg px-3 py-2 hover:bg-white/5">YouTube &amp; Reviews</a>
+        <a href="#efootball" class="mobile-nav-link rounded-lg px-3 py-2 hover:bg-white/5">eFootball &amp; Gaming Live</a>
+        <a href="#showcase" class="mobile-nav-link rounded-lg px-3 py-2 hover:bg-white/5">Showcase</a>
+        <a href="#contact" class="mobile-nav-link rounded-lg px-3 py-2 text-emerald-400 hover:bg-white/5">Contact &amp; Collabs</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="top" class="relative overflow-hidden border-b border-white/10">
+    <div class="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(236,72,153,0.16),_transparent_50%),radial-gradient(ellipse_at_bottom_left,_rgba(16,185,129,0.15),_transparent_55%)]"></div>
+
+    <div class="relative z-10 mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:py-28">
+      <div class="max-w-3xl">
+        <div class="mb-5 flex flex-wrap gap-2">
+          <span class="inline-flex items-center gap-1.5 rounded-full border border-sky-500/30 bg-sky-500/10 px-3 py-1 text-xs font-semibold text-sky-300">
+            <i data-lucide="sparkles" class="h-3.5 w-3.5"></i> Self-Made Creator
+          </span>
+          <span class="inline-flex items-center gap-1.5 rounded-full border border-pink-500/30 bg-pink-500/10 px-3 py-1 text-xs font-semibold text-pink-300">
+            <i data-lucide="film" class="h-3.5 w-3.5"></i> Video Editor &amp; Reels Specialist
+          </span>
+          <span class="inline-flex items-center gap-1.5 rounded-full border border-red-500/30 bg-red-500/10 px-3 py-1 text-xs font-semibold text-red-300">
+            <i data-lucide="youtube" class="h-3.5 w-3.5"></i> YouTube Influencer
+          </span>
+          <span class="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300">
+            <i data-lucide="radio" class="h-3.5 w-3.5"></i> Gaming &amp; Live Streamer
+          </span>
+        </div>
+
+        <h1 class="font-display text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          Hi, I’m <span class="gradient-text">Arup Sarkar</span>
+        </h1>
+
+        <p class="mt-5 text-base leading-relaxed text-slate-300 sm:text-lg">
+          A <strong class="text-white">self-made creator</strong> and <strong class="text-white">video editor</strong> who handles everything from concept to final cut. I work as a freelance editor crafting <strong class="text-white">high-retention Instagram Reels</strong> and dynamic video edits, while running my main <strong class="text-white">YouTube channel</strong> for long-form tech &amp; product reviews and comedy, plus my dedicated <strong class="text-white">gaming &amp; live channel</strong> for competitive eFootball streams.
+        </p>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a href="#editing" class="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-pink-500 to-rose-500 px-5 py-3 text-sm font-semibold text-white transition hover:brightness-110">
+            <i data-lucide="scissors" class="h-4 w-4"></i>
+            Video Editing &amp; Reels
+          </a>
+          <a href="#youtube" class="inline-flex items-center gap-2 rounded-xl border border-red-500/40 bg-red-500/10 px-5 py-3 text-sm font-semibold text-red-200 transition hover:bg-red-500/20">
+            <i data-lucide="youtube" class="h-4 w-4"></i>
+            YouTube &amp; Reviews
+          </a>
+          <a href="#efootball" class="inline-flex items-center gap-2 rounded-xl border border-emerald-500/40 bg-emerald-500/10 px-5 py-3 text-sm font-semibold text-emerald-200 transition hover:bg-emerald-500/20">
+            <i data-lucide="gamepad-2" class="h-4 w-4"></i>
+            Gaming &amp; Live
+          </a>
+          <button id="copy-bio-btn" type="button" class="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-sm font-medium text-slate-200 transition hover:bg-white/10">
+            <i data-lucide="copy" class="h-4 w-4"></i>
+            <span id="copy-bio-text">Copy Bio Summary</span>
+          </button>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center gap-4 text-sm text-slate-400">
+          <span class="font-medium text-slate-300">Follow:</span>
+          <a href="https://www.instagram.com/thearupofficial" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 transition hover:text-pink-400">
+            <i data-lucide="instagram" class="h-4 w-4"></i> @thearupofficial
+          </a>
+          <a href="https://www.youtube.com/@thearuporiginals" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 transition hover:text-red-400">
+            <i data-lucide="youtube" class="h-4 w-4"></i> @thearuporiginals
+          </a>
+          <a href="https://www.youtube.com/@thearuppixelden" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 transition hover:text-emerald-400">
+            <i data-lucide="radio" class="h-4 w-4"></i> @thearuppixelden (Gaming &amp; Live)
+          </a>
+          <a href="https://www.facebook.com/thearup2022" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 transition hover:text-sky-400">
+            <i data-lucide="facebook" class="h-4 w-4"></i> thearup2022
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="border-b border-white/10 py-16 lg:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <p class="text-xs font-bold uppercase tracking-widest text-emerald-400">About Arup Sarkar</p>
+      <h2 class="mt-2 font-display text-3xl font-bold text-white sm:text-4xl">
+        Self-Made Creator. Hands-On Video Editor. Competitive Gamer.
+      </h2>
+      <p class="mt-4 max-w-3xl text-slate-300 leading-relaxed">
+        I build everything from scratch—brainstorming ideas, writing scripts, shooting, editing, sound-designing, and going live. As a <strong class="text-white">video editor</strong>, I help creators and brands turn raw footage into high-retention Instagram Reels and engaging YouTube videos. As a <strong class="text-white">self-made creator</strong>, I entertain my audience with honest tech &amp; product reviews and comedy on <strong class="text-white">@thearuporiginals</strong>, and host competitive eFootball matches and livestreams on <strong class="text-white">@thearuppixelden</strong>.
+      </p>
+
+      <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="glass-card rounded-2xl p-6">
+          <i data-lucide="scissors" class="h-6 w-6 text-pink-400"></i>
+          <h3 class="mt-4 font-display text-lg font-bold text-white">Video Editor</h3>
+          <p class="mt-1.5 text-sm text-slate-400">High-retention Reels, YouTube edits, pacing, captions, SFX, color grading &amp; motion cuts for clients and brands.</p>
+        </div>
+        <div class="glass-card rounded-2xl p-6">
+          <i data-lucide="sparkles" class="h-6 w-6 text-sky-400"></i>
+          <h3 class="mt-4 font-display text-lg font-bold text-white">Self-Made Creator</h3>
+          <p class="mt-1.5 text-sm text-slate-400">End-to-end solo production: ideation, scripting, filming, editing, and community building across platforms.</p>
+        </div>
+        <div class="glass-card rounded-2xl p-6">
+          <i data-lucide="youtube" class="h-6 w-6 text-red-400"></i>
+          <h3 class="mt-4 font-display text-lg font-bold text-white">YouTube &amp; Comedy</h3>
+          <p class="mt-1.5 text-sm text-slate-400">Long-form videos, honest tech &amp; product reviews, memes, and fun skits on @thearuporiginals.</p>
+        </div>
+        <div class="glass-card rounded-2xl p-6">
+          <i data-lucide="radio" class="h-6 w-6 text-emerald-400"></i>
+          <h3 class="mt-4 font-display text-lg font-bold text-white">Gaming &amp; Live</h3>
+          <p class="mt-1.5 text-sm text-slate-400">Competitive eFootball 4-2-4 gameplay, livestreams, and community matches on @thearuppixelden.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Editing & High-Retention Reels Section -->
+  <section id="editing" class="border-b border-white/10 py-16 lg:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="glass-card magenta-glow rounded-3xl p-6 sm:p-10">
+        <div class="flex flex-col justify-between gap-6 lg:flex-row lg:items-center">
+          <div class="max-w-2xl">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-pink-500/15 px-3 py-1 text-xs font-semibold text-pink-300">
+              <i data-lucide="scissors" class="h-3.5 w-3.5"></i> Video Editing &amp; High-Retention Reels
+            </span>
+            <h2 class="mt-3 font-display text-3xl font-bold text-white sm:text-4xl">In the Edit Suite</h2>
+            <p class="mt-3 text-slate-300 leading-relaxed">
+              I work as a <strong class="text-white">video editor</strong> for creators and brands while editing all of my own self-made content. My focus is <strong class="text-white">high-retention Instagram Reels</strong>, YouTube videos, and punchy storytelling—combining hook-first pacing, meme timing, beat-syncing, speed ramps, color grading, and crisp sound design.
+            </p>
+          </div>
+          <a href="#contact" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-pink-500 px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:bg-pink-400">
+            <i data-lucide="briefcase" class="h-4 w-4"></i>
+            Hire Me as an Editor
+          </a>
+        </div>
+
+        <div class="mt-8">
+          <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Editing Specialties</p>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <button type="button" data-edit="reels" class="edit-btn rounded-lg bg-pink-500 px-4 py-2 text-xs font-semibold text-slate-950 transition">High-Retention Reels</button>
+            <button type="button" data-edit="youtube" class="edit-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">YouTube Long-Form</button>
+            <button type="button" data-edit="comedy" class="edit-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">Meme &amp; Gaming Edits</button>
+            <button type="button" data-edit="sfx" class="edit-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">Color &amp; SFX</button>
+          </div>
+          <p id="edit-desc" class="mt-4 rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm text-slate-300">
+            <strong class="text-pink-300">High-Retention Instagram Reels (9:16):</strong> Hook-first pacing in the opening 2 seconds, kinetic captions, clean transitions, and audio-reactive cuts engineered to maximize watch-time and replay value.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YouTube Influencer & Self-Made Content Section -->
+  <section id="youtube" class="border-b border-white/10 py-16 lg:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="glass-card red-glow rounded-3xl p-6 sm:p-10">
+        <div class="flex flex-col justify-between gap-6 lg:flex-row lg:items-center">
+          <div class="max-w-2xl">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-red-500/15 px-3 py-1 text-xs font-semibold text-red-300">
+              <i data-lucide="youtube" class="h-3.5 w-3.5"></i> Self-Made YouTube Influencer
+            </span>
+            <h2 class="mt-3 font-display text-3xl font-bold text-white sm:text-4xl">
+              Long-Form Videos, Product Reviews &amp; Fun Content
+            </h2>
+            <p class="mt-3 text-slate-300 leading-relaxed">
+              On my main YouTube channel <strong class="text-white">@thearuporiginals</strong>, I create original long-form content from scratch—blending honest tech and product reviews with creative comedy, memes, and fun storytelling designed to make people laugh.
+            </p>
+          </div>
+          <a href="https://www.youtube.com/@thearuporiginals" target="_blank" rel="noopener noreferrer" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-red-600 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-red-500">
+            <i data-lucide="external-link" class="h-4 w-4"></i>
+            Visit @thearuporiginals
+          </a>
+        </div>
+
+        <div class="mt-8 grid gap-5 md:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
+            <i data-lucide="package-check" class="h-5 w-5 text-red-400"></i>
+            <h3 class="mt-3 font-display text-base font-bold text-white">Tech &amp; Product Reviews</h3>
+            <p class="mt-1.5 text-sm text-slate-400">Honest, engaging hands-on reviews that help audiences choose the right gear and give brands authentic reach.</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
+            <i data-lucide="video" class="h-5 w-5 text-sky-400"></i>
+            <h3 class="mt-3 font-display text-base font-bold text-white">Long-Form Videos</h3>
+            <p class="mt-1.5 text-sm text-slate-400">Structured 16:9 YouTube videos written, filmed, and edited solo to keep viewers hooked from start to finish.</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-5">
+            <i data-lucide="laugh" class="h-5 w-5 text-amber-400"></i>
+            <h3 class="mt-3 font-display text-base font-bold text-white">Memes &amp; Comedy Skits</h3>
+            <p class="mt-1.5 text-sm text-slate-400">Creative humor, relatable memes, and light-hearted edits crafted purely to make people laugh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- eFootball Competitive & Gaming Live Channel Section -->
+  <section id="efootball" class="border-b border-white/10 py-16 lg:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="glass-card emerald-glow rounded-3xl p-6 sm:p-10">
+        <div class="flex flex-col justify-between gap-6 lg:flex-row lg:items-center">
+          <div class="max-w-2xl">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 px-3 py-1 text-xs font-semibold text-emerald-300">
+              <i data-lucide="gamepad-2" class="h-3.5 w-3.5"></i> eFootball Competitive &amp; Gaming Live
+            </span>
+            <h2 class="mt-3 font-display text-3xl font-bold text-white sm:text-4xl">On the Virtual Pitch &amp; Live</h2>
+            <p class="mt-3 text-slate-300 leading-relaxed">
+              Built around a personalized, mastered <strong class="text-white">4-2-4</strong> formation with
+              <strong class="text-white">Quick Counter</strong> and <strong class="text-white">Long Ball Counter</strong> playstyles. Catch my live eFootball matches, gaming sessions, and community challenges on my dedicated gaming &amp; live channel <strong class="text-white">@thearuppixelden</strong>.
+            </p>
+          </div>
+          <a href="https://www.youtube.com/@thearuppixelden" target="_blank" rel="noopener noreferrer" class="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-emerald-500 px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:bg-emerald-400">
+            <i data-lucide="radio" class="h-4 w-4"></i>
+            Watch Live on @thearuppixelden
+          </a>
+        </div>
+
+        <div class="mt-8">
+          <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Explore Tactical Focus</p>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <button type="button" data-tactic="qc" class="tactic-btn rounded-lg bg-emerald-500 px-4 py-2 text-xs font-semibold text-slate-950 transition">Quick Counter</button>
+            <button type="button" data-tactic="lbc" class="tactic-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">Long Ball Counter</button>
+            <button type="button" data-tactic="f424" class="tactic-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">4-2-4 Formation</button>
+          </div>
+          <p id="tactic-desc" class="mt-4 rounded-xl border border-white/10 bg-slate-900/70 p-4 text-sm text-slate-300">
+            <strong class="text-emerald-300">Quick Counter:</strong> Rapid vertical progression after winning possession, exploiting half-spaces with timed through-balls and clinical finishing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio & Showcase Section -->
+  <section id="showcase" class="border-b border-white/10 py-16 lg:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <p class="text-xs font-bold uppercase tracking-widest text-sky-400">Portfolio &amp; Highlights</p>
+      <h2 class="mt-2 font-display text-3xl font-bold text-white sm:text-4xl">Featured Work &amp; Formats</h2>
+
+      <div class="mt-6 flex flex-wrap gap-2">
+        <button type="button" data-filter="all" class="filter-btn rounded-lg bg-white px-4 py-2 text-xs font-semibold text-slate-950 transition">All</button>
+        <button type="button" data-filter="editing" class="filter-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">Video Editing</button>
+        <button type="button" data-filter="instagram" class="filter-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">Instagram Reels</button>
+        <button type="button" data-filter="youtube" class="filter-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">YouTube &amp; Reviews</button>
+        <button type="button" data-filter="efootball" class="filter-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10">Gaming &amp; Live</button>
+      </div>
+
+      <div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <!-- High-Retention Instagram Reel -->
+        <article data-category="instagram" class="showcase-card glass-card flex flex-col justify-between rounded-2xl p-6">
+          <div>
+            <div class="flex items-center justify-between text-xs font-semibold">
+              <span class="text-pink-400">Instagram Reels</span>
+              <span class="text-slate-400">9:16 High-Retention</span>
+            </div>
+            <h3 class="mt-3 font-display text-lg font-bold text-white">High-Retention Storytelling Reel</h3>
+            <p class="mt-2 text-sm text-slate-400">Vertical short-form edits engineered for maximum watch-time with 2-second hooks, kinetic captions, and crisp color grading.</p>
+          </div>
+          <div class="mt-5 flex flex-wrap gap-1.5 text-[11px] text-slate-300">
+            <span class="rounded-md bg-white/5 px-2.5 py-1">High Retention</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Hook Pacing</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Dynamic Captions</span>
+          </div>
+        </article>
+
+        <!-- Client Video Editing -->
+        <article data-category="editing" class="showcase-card glass-card flex flex-col justify-between rounded-2xl p-6">
+          <div>
+            <div class="flex items-center justify-between text-xs font-semibold">
+              <span class="text-sky-400">Video Editing</span>
+              <span class="text-slate-400">9:16 / 16:9 Client Work</span>
+            </div>
+            <h3 class="mt-3 font-display text-lg font-bold text-white">Creator &amp; Brand Promo Edits</h3>
+            <p class="mt-2 text-sm text-slate-400">Clean, engaging video editing for creators and brands—covering talking-head pacing, b-roll, motion cuts, and SFX.</p>
+          </div>
+          <div class="mt-5 flex flex-wrap gap-1.5 text-[11px] text-slate-300">
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Motion Cuts</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">SFX Design</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Brand Ready</span>
+          </div>
+        </article>
+
+        <!-- YouTube Product Reviews -->
+        <article data-category="youtube" class="showcase-card glass-card flex flex-col justify-between rounded-2xl p-6">
+          <div>
+            <div class="flex items-center justify-between text-xs font-semibold">
+              <span class="text-red-400">YouTube</span>
+              <span class="text-slate-400">16:9 Long-Form</span>
+            </div>
+            <h3 class="mt-3 font-display text-lg font-bold text-white">Tech &amp; Product Reviews</h3>
+            <p class="mt-2 text-sm text-slate-400">In-depth, honest product reviews and showcases produced end-to-end on @thearuporiginals.</p>
+          </div>
+          <div class="mt-5 flex flex-wrap gap-1.5 text-[11px] text-slate-300">
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Product Reviews</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Long-Form</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Self-Made</span>
+          </div>
+        </article>
+
+        <!-- Fun, Memes & Comedy -->
+        <article data-category="youtube" class="showcase-card glass-card flex flex-col justify-between rounded-2xl p-6">
+          <div>
+            <div class="flex items-center justify-between text-xs font-semibold">
+              <span class="text-amber-400">YouTube &amp; Reels</span>
+              <span class="text-slate-400">Comedy &amp; Memes</span>
+            </div>
+            <h3 class="mt-3 font-display text-lg font-bold text-white">Fun, Memes &amp; Comedy Skits</h3>
+            <p class="mt-2 text-sm text-slate-400">Original humor-driven videos packed with sharp meme edits and comedic timing built to make people laugh.</p>
+          </div>
+          <div class="mt-5 flex flex-wrap gap-1.5 text-[11px] text-slate-300">
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Memes</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Comedy Timing</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Entertainment</span>
+          </div>
+        </article>
+
+        <!-- Velocity & Beat-Sync Montage -->
+        <article data-category="editing" class="showcase-card glass-card flex flex-col justify-between rounded-2xl p-6">
+          <div>
+            <div class="flex items-center justify-between text-xs font-semibold">
+              <span class="text-sky-400">Video Editing</span>
+              <span class="text-slate-400">9:16 / 16:9 Highlight</span>
+            </div>
+            <h3 class="mt-3 font-display text-lg font-bold text-white">Velocity &amp; Beat-Sync Montage</h3>
+            <p class="mt-2 text-sm text-slate-400">High-energy sports and eFootball highlight edits featuring frame-accurate beat drops, speed ramps, and sound design.</p>
+          </div>
+          <div class="mt-5 flex flex-wrap gap-1.5 text-[11px] text-slate-300">
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Speed Ramping</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Beat Sync</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Color Grading</span>
+          </div>
+        </article>
+
+        <!-- eFootball & Gaming Live -->
+        <article data-category="efootball" class="showcase-card glass-card flex flex-col justify-between rounded-2xl p-6">
+          <div>
+            <div class="flex items-center justify-between text-xs font-semibold">
+              <span class="text-emerald-400">Gaming &amp; Live</span>
+              <span class="text-slate-400">@thearuppixelden</span>
+            </div>
+            <h3 class="mt-3 font-display text-lg font-bold text-white">eFootball Livestreams &amp; Matches</h3>
+            <p class="mt-2 text-sm text-slate-400">Live competitive eFootball gameplay, 4-2-4 tactical breakdowns, and interactive community streams on @thearuppixelden.</p>
+          </div>
+          <div class="mt-5 flex flex-wrap gap-1.5 text-[11px] text-slate-300">
+            <span class="rounded-md bg-white/5 px-2.5 py-1">Livestreams</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">eFootball 4-2-4</span>
+            <span class="rounded-md bg-white/5 px-2.5 py-1">1v1 Matches</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 lg:py-24">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-widest text-emerald-400">Work Together</p>
+          <h2 class="mt-2 font-display text-3xl font-bold text-white sm:text-4xl">Let’s Build Something Sharp</h2>
+          <p class="mt-4 text-slate-300 leading-relaxed">
+            Reach out to hire me as a video editor, collaborate on high-retention Instagram Reels, sponsor a YouTube product review, or join a gaming livestream and eFootball match.
+          </p>
+
+          <div class="mt-8 grid gap-3 sm:grid-cols-2">
+            <a href="https://www.instagram.com/thearupofficial" target="_blank" rel="noopener noreferrer" class="glass-card rounded-xl p-4 transition hover:border-pink-500/40">
+              <i data-lucide="instagram" class="h-5 w-5 text-pink-400"></i>
+              <p class="mt-2 text-xs text-slate-400">Instagram</p>
+              <p class="text-sm font-semibold text-white">@thearupofficial</p>
+            </a>
+            <a href="https://www.youtube.com/@thearuporiginals" target="_blank" rel="noopener noreferrer" class="glass-card rounded-xl p-4 transition hover:border-red-500/40">
+              <i data-lucide="youtube" class="h-5 w-5 text-red-400"></i>
+              <p class="mt-2 text-xs text-slate-400">YouTube (Main)</p>
+              <p class="text-sm font-semibold text-white">@thearuporiginals</p>
+            </a>
+            <a href="https://www.youtube.com/@thearuppixelden" target="_blank" rel="noopener noreferrer" class="glass-card rounded-xl p-4 transition hover:border-emerald-500/40">
+              <i data-lucide="radio" class="h-5 w-5 text-emerald-400"></i>
+              <p class="mt-2 text-xs text-slate-400">YouTube (Gaming &amp; Live)</p>
+              <p class="text-sm font-semibold text-white">@thearuppixelden</p>
+            </a>
+            <a href="https://www.facebook.com/thearup2022" target="_blank" rel="noopener noreferrer" class="glass-card rounded-xl p-4 transition hover:border-sky-500/40">
+              <i data-lucide="facebook" class="h-5 w-5 text-sky-400"></i>
+              <p class="mt-2 text-xs text-slate-400">Facebook</p>
+              <p class="text-sm font-semibold text-white">thearup2022</p>
+            </a>
+          </div>
+        </div>
+
+        <form id="contact-form" class="glass-card rounded-2xl p-6 sm:p-8 space-y-4">
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300">Your Name</label>
+            <input type="text" required placeholder="Enter your name" class="mt-1.5 w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-emerald-400 focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300">Email or Instagram Handle</label>
+            <input type="text" required placeholder="@handle or email@example.com" class="mt-1.5 w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-emerald-400 focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300">Inquiry Type</label>
+            <select class="mt-1.5 w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-2.5 text-sm text-white focus:border-emerald-400 focus:outline-none">
+              <option>Video Editing Project (Reels / YouTube)</option>
+              <option>YouTube Sponsorship / Product Review</option>
+              <option>Instagram Reels Collaboration</option>
+              <option>eFootball Match / Gaming Live Collab</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300">Message</label>
+            <textarea rows="4" required placeholder="Share details about your edit, product review, collaboration, or match..." class="mt-1.5 w-full rounded-xl border border-white/10 bg-slate-950/70 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:border-emerald-400 focus:outline-none"></textarea>
+          </div>
+          <button type="submit" class="w-full rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:brightness-110">
+            Send Inquiry
+          </button>
+          <p id="form-status" class="hidden text-center text-xs font-medium text-emerald-400">Thanks! Your inquiry has been noted.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-8">
+    <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 text-xs text-slate-400 sm:flex-row sm:px-6">
+      <p>© 2026 Arup Sarkar. Self-Made Creator, Video Editor &amp; Gaming Streamer.</p>
+      <div class="flex flex-wrap items-center gap-5">
+        <a href="https://www.instagram.com/thearupofficial" target="_blank" rel="noopener noreferrer" class="hover:text-white">Instagram</a>
+        <a href="https://www.youtube.com/@thearuporiginals" target="_blank" rel="noopener noreferrer" class="hover:text-white">YouTube</a>
+        <a href="https://www.youtube.com/@thearuppixelden" target="_blank" rel="noopener noreferrer" class="hover:text-white">Gaming &amp; Live</a>
+        <a href="https://www.facebook.com/thearup2022" target="_blank" rel="noopener noreferrer" class="hover:text-white">Facebook</a>
+        <a href="#top" class="hover:text-white">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    // Copy bio summary
+    const copyBtn = document.getElementById('copy-bio-btn');
+    const copyText = document.getElementById('copy-bio-text');
+    const bioSummary = "Hi, I'm Arup Sarkar — Self-made creator, freelance video editor, YouTube influencer (@thearuporiginals), gaming & live streamer (@thearuppixelden), and Instagram creator (@thearupofficial) crafting high-retention Reels, long-form tech & product reviews, fun meme/comedy content, and competitive eFootball streams.";
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(bioSummary);
+        copyText.textContent = 'Bio Copied!';
+        setTimeout(() => (copyText.textContent = 'Copy Bio Summary'), 2000);
+      } catch (e) {
+        copyText.textContent = 'Copy Failed';
+      }
+    });
+
+    // Editing specialties tabs
+    const edits = {
+      reels: '<strong class="text-pink-300">High-Retention Instagram Reels (9:16):</strong> Hook-first pacing in the opening 2 seconds, kinetic captions, clean transitions, and audio-reactive cuts engineered to maximize watch-time and replay value.',
+      youtube: '<strong class="text-pink-300">YouTube Long-Form Editing (16:9):</strong> Clean storytelling, structured pacing, b-roll integration, and retention-focused cuts for vlogs, product reviews, and creator channels.',
+      comedy: '<strong class="text-pink-300">Meme &amp; Gaming Edits:</strong> Punchy comedic timing, well-placed meme inserts, velocity ramps, and beat-synced gameplay highlights.',
+      sfx: '<strong class="text-pink-300">Color &amp; SFX:</strong> Cinematic color grading paired with layered risers, whooshes, and comedic sound effects for a polished finish.'
+    };
+    document.querySelectorAll('.edit-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.edit-btn').forEach(b => {
+          b.className = 'edit-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10';
+        });
+        btn.className = 'edit-btn rounded-lg bg-pink-500 px-4 py-2 text-xs font-semibold text-slate-950 transition';
+        document.getElementById('edit-desc').innerHTML = edits[btn.dataset.edit];
+      });
+    });
+
+    // Tactical focus tabs
+    const tactics = {
+      qc: '<strong class="text-emerald-300">Quick Counter:</strong> Rapid vertical progression after winning possession, exploiting half-spaces with timed through-balls and clinical finishing.',
+      lbc: '<strong class="text-emerald-300">Long Ball Counter:</strong> Compact defensive shape with explosive direct transitions to punish high defensive lines.',
+      f424: '<strong class="text-emerald-300">4-2-4 Formation:</strong> High-pressure four-man frontline supported by a disciplined double pivot for relentless attacking overload.'
+    };
+    document.querySelectorAll('.tactic-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tactic-btn').forEach(b => {
+          b.className = 'tactic-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10';
+        });
+        btn.className = 'tactic-btn rounded-lg bg-emerald-500 px-4 py-2 text-xs font-semibold text-slate-950 transition';
+        document.getElementById('tactic-desc').innerHTML = tactics[btn.dataset.tactic];
+      });
+    });
+
+    // Portfolio filter
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => {
+          b.className = 'filter-btn rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-slate-300 transition hover:bg-white/10';
+        });
+        btn.className = 'filter-btn rounded-lg bg-white px-4 py-2 text-xs font-semibold text-slate-950 transition';
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.showcase-card').forEach(card => {
+          card.style.display = (filter === 'all' || card.dataset.category === filter) ? 'flex' : 'none';
+        });
+      });
+    });
+
+    // Contact form feedback
+    document.getElementById('contact-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      document.getElementById('form-status').classList.remove('hidden');
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>
